@@ -1,0 +1,682 @@
+
+html_content = '''<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alex Morgan | Creative Designer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <span class="logo-icon">AM</span>
+                <span class="logo-text">Alex Morgan</span>
+            </a>
+            <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#hero" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#portfolio" class="nav-link">Work</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#testimonials" class="nav-link">Reviews</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-bg">
+            <div class="gradient-orb orb-1"></div>
+            <div class="gradient-orb orb-2"></div>
+            <div class="gradient-orb orb-3"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-badge">
+                <span class="badge-dot"></span>
+                Available for projects
+            </div>
+            <h1 class="hero-title">
+                I create <span class="gradient-text">scroll-stopping</span> visuals that grow your brand
+            </h1>
+            <p class="hero-subtitle">
+                Premium graphic design for social media, branding, and digital marketing. 
+                Helping businesses stand out with bold, memorable visuals.
+            </p>
+            <div class="hero-cta">
+                <a href="#portfolio" class="btn btn-primary">
+                    <span>View My Work</span>
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M5 12h14M12 5l7 7-7 7"/>
+                    </svg>
+                </a>
+                <a href="#contact" class="btn btn-outline">
+                    <span>Hire Me</span>
+                </a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <span class="stat-number">150+</span>
+                    <span class="stat-label">Projects Done</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <span class="stat-number">50+</span>
+                    <span class="stat-label">Happy Clients</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <span class="stat-number">5+</span>
+                    <span class="stat-label">Years Experience</span>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <span>Scroll to explore</span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">About Me</span>
+                <h2 class="section-title">Design that speaks louder than words</h2>
+            </div>
+            <div class="about-grid">
+                <div class="about-image">
+                    <div class="image-frame">
+                        <div class="image-placeholder">
+                            <svg width="80" height="80" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
+                                <circle cx="12" cy="7" r="4"/>
+                            </svg>
+                            <span>Designer Portrait</span>
+                        </div>
+                        <div class="experience-badge">
+                            <span class="exp-number">5+</span>
+                            <span class="exp-text">Years of<br>Experience</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-content">
+                    <h3>Hi, I'm Alex Morgan</h3>
+                    <p>
+                        A passionate graphic designer specializing in creating stunning visuals for brands 
+                        that want to make an impact. With over 5 years of experience in the creative industry, 
+                        I've helped businesses of all sizes elevate their visual identity.
+                    </p>
+                    <p>
+                        My approach combines strategic thinking with creative execution, ensuring every design 
+                        not only looks beautiful but also drives real results for your business.
+                    </p>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <rect x="3" y="3" width="18" height="18" rx="2"/>
+                                    <path d="M3 9h18M9 21V9"/>
+                                </svg>
+                            </div>
+                            <span>Photoshop Editing</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <rect x="2" y="3" width="20" height="14" rx="2"/>
+                                    <line x1="8" y1="21" x2="16" y2="21"/>
+                                    <line x1="12" y1="17" x2="12" y2="21"/>
+                                </svg>
+                            </div>
+                            <span>Social Media Design</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <circle cx="12" cy="12" r="10"/>
+                                    <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/>
+                                    <path d="M2 12h20"/>
+                                </svg>
+                            </div>
+                            <span>Branding</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+                                    <path d="M2 17l10 5 10-5"/>
+                                    <path d="M2 12l10 5 10-5"/>
+                                </svg>
+                            </div>
+                            <span>Logo Design</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                                </svg>
+                            </div>
+                            <span>Content Creation</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/>
+                                    <circle cx="12" cy="13" r="4"/>
+                                </svg>
+                            </div>
+                            <span>Photo Retouching</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Portfolio</span>
+                <h2 class="section-title">Selected works that make an impact</h2>
+            </div>
+            <div class="portfolio-filter">
+                <button class="filter-btn active" data-filter="all">All Work</button>
+                <button class="filter-btn" data-filter="social">Social Media</button>
+                <button class="filter-btn" data-filter="logo">Logo Design</button>
+                <button class="filter-btn" data-filter="branding">Branding</button>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-category="social">
+                    <div class="portfolio-card">
+                        <div class="portfolio-image">
+                            <div class="image-placeholder-portfolio" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+                                <span>Instagram Post Design</span>
+                            </div>
+                            <div class="portfolio-overlay">
+                                <button class="view-btn" data-title="Instagram Post Design" data-desc="Engaging social media content for lifestyle brand">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/>
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="portfolio-info">
+                            <span class="portfolio-category">Social Media</span>
+                            <h3>Instagram Post Design</h3>
+                            <p>Lifestyle brand engagement campaign</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="logo">
+                    <div class="portfolio-card">
+                        <div class="portfolio-image">
+                            <div class="image-placeholder-portfolio" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);">
+                                <span>Brand Logo Concept</span>
+                            </div>
+                            <div class="portfolio-overlay">
+                                <button class="view-btn" data-title="Brand Logo Concept" data-desc="Modern minimalist logo for tech startup">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/>
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="portfolio-info">
+                            <span class="portfolio-category">Logo Design</span>
+                            <h3>Brand Logo Concept</h3>
+                            <p>Tech startup identity</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="social">
+                    <div class="portfolio-card">
+                        <div class="portfolio-image">
+                            <div class="image-placeholder-portfolio" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);">
+                                <span>Facebook Ad Creative</span>
+                            </div>
+                            <div class="portfolio-overlay">
+                                <button class="view-btn" data-title="Facebook Ad Creative" data-desc="High-converting ad design for e-commerce">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/>
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="portfolio-info">
+                            <span class="portfolio-category">Social Media</span>
+                            <h3>Facebook Ad Creative</h3>
+                            <p>E-commerce conversion campaign</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="branding">
+                    <div class="portfolio-card">
+                        <div class="portfolio-image">
+                            <div class="image-placeholder-portfolio" style="background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);">
+                                <span>Full Brand Identity</span>
+                            </div>
+                            <div class="portfolio-overlay">
+                                <button class="view-btn" data-title="Full Brand Identity" data-desc="Complete branding package for wellness company">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/>
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="portfolio-info">
+                            <span class="portfolio-category">Branding</span>
+                            <h3>Full Brand Identity</h3>
+                            <p>Wellness company rebrand</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="social">
+                    <div class="portfolio-card">
+                        <div class="portfolio-image">
+                            <div class="image-placeholder-portfolio" style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);">
+                                <span>Tutorial Thumbnail</span>
+                            </div>
+                            <div class="portfolio-overlay">
+                                <button class="view-btn" data-title="Tutorial Thumbnail" data-desc="YouTube thumbnail design for educational channel">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/>
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="portfolio-info">
+                            <span class="portfolio-category">Social Media</span>
+                            <h3>Tutorial Thumbnail</h3>
+                            <p>YouTube educational content</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="logo">
+                    <div class="portfolio-card">
+                        <div class="portfolio-image">
+                            <div class="image-placeholder-portfolio" style="background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);">
+                                <span>App Icon Design</span>
+                            </div>
+                            <div class="portfolio-overlay">
+                                <button class="view-btn" data-title="App Icon Design" data-desc="Mobile app icon for fintech application">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/>
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="portfolio-info">
+                            <span class="portfolio-category">Logo Design</span>
+                            <h3>App Icon Design</h3>
+                            <p>Fintech mobile application</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Services</span>
+                <h2 class="section-title">What I can do for you</h2>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <rect x="2" y="3" width="20" height="14" rx="2"/>
+                            <line x1="8" y1="21" x2="16" y2="21"/>
+                            <line x1="12" y1="17" x2="12" y2="21"/>
+                        </svg>
+                    </div>
+                    <h3>Social Media Design Package</h3>
+                    <p>Complete social media content creation including posts, stories, banners, and ad creatives tailored to your brand voice.</p>
+                    <ul class="service-features">
+                        <li>Instagram & Facebook posts</li>
+                        <li>Story templates</li>
+                        <li>Ad creatives</li>
+                        <li>Content calendar</li>
+                    </ul>
+                    <a href="#contact" class="service-link">Get Started <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+                </div>
+                <div class="service-card featured">
+                    <div class="service-badge">Popular</div>
+                    <div class="service-icon">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+                            <path d="M2 17l10 5 10-5"/>
+                            <path d="M2 12l10 5 10-5"/>
+                        </svg>
+                    </div>
+                    <h3>Logo Design</h3>
+                    <p>Unique, memorable logos that capture your brand essence and make a lasting impression on your audience.</p>
+                    <ul class="service-features">
+                        <li>3 initial concepts</li>
+                        <li>Unlimited revisions</li>
+                        <li>Source files included</li>
+                        <li>Brand guidelines</li>
+                    </ul>
+                    <a href="#contact" class="service-link">Get Started <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/>
+                            <circle cx="12" cy="13" r="4"/>
+                        </svg>
+                    </div>
+                    <h3>Photo Retouching</h3>
+                    <p>Professional photo editing and enhancement to make your images look flawless and publication-ready.</p>
+                    <ul class="service-features">
+                        <li>Color correction</li>
+                        <li>Skin retouching</li>
+                        <li>Background removal</li>
+                        <li>Object removal</li>
+                    </ul>
+                    <a href="#contact" class="service-link">Get Started <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <circle cx="12" cy="12" r="10"/>
+                            <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/>
+                            <path d="M2 12h20"/>
+                        </svg>
+                    </div>
+                    <h3>Full Branding Kit</h3>
+                    <p>Comprehensive brand identity package including logo, color palette, typography, and brand guidelines.</p>
+                    <ul class="service-features">
+                        <li>Logo & variations</li>
+                        <li>Color palette</li>
+                        <li>Typography system</li>
+                        <li>Brand guidelines PDF</li>
+                    </ul>
+                    <a href="#contact" class="service-link">Get Started <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Testimonials</span>
+                <h2 class="section-title">What clients say about my work</h2>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                    </div>
+                    <p class="testimonial-text">"Alex transformed our social media presence completely. The designs are not just beautiful—they actually drive engagement. Our Instagram following grew by 40% in just two months!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">SM</div>
+                        <div class="author-info">
+                            <h4>Sarah Mitchell</h4>
+                            <span>Marketing Director, Bloom Co.</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                    </div>
+                    <p class="testimonial-text">"The logo Alex designed for our startup perfectly captures our brand essence. Professional, creative, and incredibly responsive. I couldn't recommend working with Alex more highly."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">JC</div>
+                        <div class="author-info">
+                            <h4>James Chen</h4>
+                            <span>Founder, TechVenture</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                    </div>
+                    <p class="testimonial-text">"Working with Alex on our complete rebrand was an absolute pleasure. The attention to detail and creative vision exceeded all expectations. Our new identity has received incredible feedback."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">ER</div>
+                        <div class="author-info">
+                            <h4>Emily Rodriguez</h4>
+                            <span>CEO, Wellness Studio</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <span class="section-tag">Get In Touch</span>
+                    <h2 class="section-title">Let's create something amazing together</h2>
+                    <p>Have a project in mind? I'd love to hear about it. Send me a message and let's discuss how we can bring your vision to life.</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                                    <polyline points="22,6 12,13 2,6"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <span class="contact-label">Email</span>
+                                <a href="mailto:hello@alexmorgan.design">hello@alexmorgan.design</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                                    <circle cx="12" cy="10" r="3"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <span class="contact-label">Location</span>
+                                <span>Los Angeles, California</span>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <circle cx="12" cy="12" r="10"/>
+                                    <polyline points="12 6 12 12 16 14"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <span class="contact-label">Response Time</span>
+                                <span>Within 24 hours</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="#" class="social-link" aria-label="Instagram">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Dribbble">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"/>
+                                <path d="M8.56 2.75c4.37 6.03 6.02 9.42 8.03 17.72m2.54-15.38c-3.72 4.35-8.94 5.66-16.88 5.85m19.5 1.9c-3.5-.93-6.63-.82-8.94 0-2.58.92-5.01 2.86-7.44 6.32"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Behance">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M3 3h6a4 4 0 0 1 4 4 4 4 0 0 1-4 4H3V3z"/>
+                                <path d="M3 11h7a4 4 0 0 1 4 4 4 4 0 0 1-4 4H3v-8z"/>
+                                <line x1="15" y1="4" x2="21" y2="4"/>
+                                <path d="M15 11a4 4 0 0 1 0 8"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link" aria-label="LinkedIn">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+                                <rect x="2" y="9" width="4" height="12"/>
+                                <circle cx="4" cy="4" r="2"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="contact-form-wrapper">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" name="name" placeholder="John Doe" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" placeholder="john@example.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="service">Service Interested In</label>
+                            <select id="service" name="service">
+                                <option value="">Select a service</option>
+                                <option value="social">Social Media Design</option>
+                                <option value="logo">Logo Design</option>
+                                <option value="retouch">Photo Retouching</option>
+                                <option value="branding">Full Branding Kit</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Your Message</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Tell me about your project..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">
+                            <span>Send Message</span>
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <line x1="22" y1="2" x2="11" y2="13"/>
+                                <polygon points="22 2 15 22 11 13 2 9 22 2"/>
+                            </svg>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#" class="logo">
+                        <span class="logo-icon">AM</span>
+                        <span class="logo-text">Alex Morgan</span>
+                    </a>
+                    <p>Creating scroll-stopping visuals that help brands grow and stand out in the digital world.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#services">Social Media Design</a></li>
+                        <li><a href="#services">Logo Design</a></li>
+                        <li><a href="#services">Photo Retouching</a></li>
+                        <li><a href="#services">Branding Kit</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Connect</h4>
+                    <ul>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">Dribbble</a></li>
+                        <li><a href="#">Behance</a></li>
+                        <li><a href="#">LinkedIn</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Alex Morgan. All rights reserved.</p>
+                <p>Designed with passion in Los Angeles</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Lightbox Modal -->
+    <div class="lightbox" id="lightbox">
+        <div class="lightbox-content">
+            <button class="lightbox-close" id="lightboxClose">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="18" y1="6" x2="6" y2="18"/>
+                    <line x1="6" y1="6" x2="18" y2="18"/>
+                </svg>
+            </button>
+            <div class="lightbox-image" id="lightboxImage"></div>
+            <div class="lightbox-info">
+                <h3 id="lightboxTitle"></h3>
+                <p id="lightboxDesc"></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Success Modal -->
+    <div class="modal" id="successModal">
+        <div class="modal-content">
+            <div class="modal-icon">
+                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                    <polyline points="22 4 12 14.01 9 11.01"/>
+                </svg>
+            </div>
+            <h3>Message Sent!</h3>
+            <p>Thank you for reaching out. I'll get back to you within 24 hours.</p>
+            <button class="btn btn-primary" id="modalClose">Got it!</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>'''
+
+with open('/mnt/agents/output/index.html', 'w') as f:
+    f.write(html_content)
+
+print("index.html written successfully")
